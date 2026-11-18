@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consultas Factura Electrónica - Verificación e-NCF</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 50px 20px 20px 20px;
+      background: #fff;
+      color: #333;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.42857143;
+      box-sizing: border-box;
+    }
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+    .col-xs-12 {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      float: left;
+    }
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    h4 {
+      margin: 10px 0;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.1;
+      color: #333;
+    }
+    .table-container {
+      color: rgb(125,125,125);
+      margin-top: 1%;
+      clear: both;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      padding: 8px;
+      line-height: 1.42857143;
+      vertical-align: top;
+      border-top: 1px solid #ddd;
+      text-align: left;
+      color: rgb(125,125,125);
+      font-weight: normal;
+    }
+    th {
+      font-weight: bold;
+      width: 20%;
+    }
+    tbody tr:nth-of-type(odd) {
+      background: #f9f9f9;
+    }
+    img {
+      max-width: 170px;
+      height: auto;
+    }
+    @media screen and (max-width: 768px) {
+      th {
+        width: 40%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="col-xs-12 clearfix" style="padding-top: 1%;">
+    <div class="col-xs-12">
+      <!-- Imagen convertida directamente a Base64 en línea (Autosuficiente) -->
+      <img src="logo.png" alt="DGII">
+    </div>
+    <div class="col-xs-12">
+      <h4><strong>Verificación e-NCF</strong></h4>
+    </div>
+  </div>
+
+  <div class="col-xs-12 table-container">
+    <table>
+      <tbody>
+        <tr><th>RNC Emisor</th><td>133-06498-7</td></tr>
+        <tr><th>Razón social emisor</th><td>TRANSLANDY S.R.L.</td></tr>
+        <tr><th>RNC Comprador</th><td>132-34245-3</td></tr>
+        <tr><th>Razón social comprador</th><td>GRUPO ALASKA SA</td></tr>
+        <tr><th>e-NCF</th><td>E450000000011</td></tr>
+        <tr><th>Fecha de Emisión</th><td>17-11-2026</td></tr>
+        <tr><th>Total de ITBIS</th><td>119,700.00</td></tr>
+        <tr><th>Monto Total</th><td>665,000.00</td></tr>
+        <tr><th>Estado</th><td>Aceptado</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
